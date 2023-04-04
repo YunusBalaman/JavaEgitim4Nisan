@@ -8,6 +8,10 @@ public class Dog extends Animal implements DogInterface, DogInterface2, DogInter
         System.out.println("Hav Hav Hav");
     }
 
+    public Dog(String log){
+        System.out.println("dog: " + log);
+    }
+
     @Override
     public void sound() {
         System.out.println("Havlar");

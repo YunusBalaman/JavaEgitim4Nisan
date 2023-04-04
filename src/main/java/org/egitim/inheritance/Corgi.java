@@ -9,6 +9,12 @@ public class Corgi extends Dog implements CorgiInterface{
         System.out.println("Corgi");
     }
 
+    public Corgi(String log, String age){
+
+        super(log);
+        System.out.println("corgi: " + age);
+    }
+
     @Override
     public void description() {
         System.out.println("Kraliçe çok severdi");
