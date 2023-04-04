@@ -20,6 +20,7 @@ public class Dog extends Animal implements DogInterface, DogInterface2, DogInter
     @Override
     public void salya() {
 
+        System.out.println("salya");
     }
 
     @Override
