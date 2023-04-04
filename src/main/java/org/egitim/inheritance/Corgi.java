@@ -16,6 +16,11 @@ public class Corgi extends Dog implements CorgiInterface{
     }
 
     @Override
+    public void sound() {
+        System.out.println("corgi: havlar");
+    }
+
+    @Override
     public void description() {
         System.out.println("Kraliçe çok severdi");
     }
