@@ -1,4 +1,4 @@
-package org.egitim;
+package org.egitim.getterSetter;
 
 public class GetterAndSetterDemoMain {
 

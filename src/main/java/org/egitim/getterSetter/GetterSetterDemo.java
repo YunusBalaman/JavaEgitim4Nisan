@@ -1,4 +1,4 @@
-package org.egitim;
+package org.egitim.getterSetter;
 
 import java.util.Locale;
 
